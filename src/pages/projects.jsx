@@ -36,14 +36,20 @@ const projects = [
   {
     name: 'Coach D',
     description: 'A no nonsense website for a no nonsense fitness coach',
-    link: { href: 'https://nicabuhat.github.io/coach', label: 'github.com' },
+    link: {
+      href: 'https://nicabuhat.github.io/project-coach.html',
+      label: 'github.com',
+    },
     logo: logoCoach,
   },
   {
     name: 'Refokus',
     description:
       'Form shoudn`t be complicated but can sure use various designs',
-    link: { href: 'https://nicabuhat.github.io/refokus', label: 'github.com' },
+    link: {
+      href: 'https://nicabuhat.github.io/project-refokus.html',
+      label: 'github.com',
+    },
     logo: logoRefokus,
   },
 ]
@@ -63,7 +69,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projects - Nicaela Cabuhat</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."
@@ -71,7 +77,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        intro="I’ve worked on tons of little projects over the years and these are some of my works. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
       >
         <ul
           role="list"
