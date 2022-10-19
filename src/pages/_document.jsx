@@ -1,4 +1,5 @@
 import { Head, Html, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 const modeScript = `
   let darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
@@ -50,6 +51,20 @@ export default function Document() {
           type="application/feed+json"
           href={`${process.env.NEXT_PUBLIC_SITE_URL}/rss/feed.json`}
         />
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-D665W093FT`}
+        />
+
+        <Script strategy="lazyOnload">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-D665W093FT');
+        `}
+        </Script>
       </Head>
       <body className="flex h-full flex-col bg-zinc-50 dark:bg-black">
         <Main />
