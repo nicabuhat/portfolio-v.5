@@ -18,6 +18,7 @@ import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import logoAlphaFour from '@/images/logos/alphafour.png'
+import logoSiguro from '@/images/logos/siguro.png'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -141,6 +142,16 @@ function Resume() {
       title: 'Frontend Web Developer / Designer',
       logo: logoPlanetaria,
       start: '2016',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
+    },
+    {
+      company: 'Siguro',
+      title: 'Freelance Frontend Web Developer',
+      logo: logoSiguro,
+      start: '2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),

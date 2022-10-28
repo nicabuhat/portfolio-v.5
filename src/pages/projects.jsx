@@ -8,6 +8,7 @@ import logoEcash from '@/images/logos/ecash.svg'
 import logoArcce from '@/images/logos/arcce.svg'
 import logoRefokus from '@/images/logos/refokus.svg'
 import logoCoach from '@/images/logos/coach.svg'
+import logoOrganic from '@/images/logos/organic.svg'
 
 const projects = [
   {
@@ -22,7 +23,7 @@ const projects = [
   {
     name: 'eCash Merch',
     description:
-      'A one stop e-commerce website for ecash merchandise powered by cashtab',
+      'Prototype for the merchandise ecommerce site of ecash, XEC currency.',
     link: { href: 'https://nicabuhat.github.io/ecash', label: 'github.com' },
     logo: logoEcash,
   },
@@ -30,12 +31,24 @@ const projects = [
     name: 'Arcce Construction Corporation',
     description:
       'A humble website for a general contracting construction company.',
-    link: { href: 'https://nicabuhat.github.io/arcce', label: 'github.com' },
+    link: {
+      href: 'https://nicabuhat.github.io/arcce',
+      label: 'github.com, arcce-constructioncorp.com',
+    },
     logo: logoArcce,
   },
   {
+    name: 'Organic Cotton',
+    description: 'A simple one secttion landing page for a bedding company.',
+    link: {
+      href: 'http://www.organiccotton.co.il/',
+      label: 'organiccotton.co.il',
+    },
+    logo: logoOrganic,
+  },
+  {
     name: 'Coach D',
-    description: 'A no nonsense website for a no nonsense fitness coach',
+    description: 'Web design for a fitness coach',
     link: {
       href: 'https://nicabuhat.github.io/project-coach.html',
       label: 'github.com',
@@ -44,11 +57,10 @@ const projects = [
   },
   {
     name: 'Refokus',
-    description:
-      'Form shoudn`t be complicated but can sure use various designs',
+    description: 'Variation of forms for a reviewing website.',
     link: {
       href: 'https://nicabuhat.github.io/project-refokus.html',
-      label: 'github.com',
+      label: 'github.com, smbreviewer.com',
     },
     logo: logoRefokus,
   },
