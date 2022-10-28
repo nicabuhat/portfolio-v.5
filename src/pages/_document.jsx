@@ -56,7 +56,7 @@ export default function Document() {
           src={`https://www.googletagmanager.com/gtag/js?id=G-D665W093FT`}
         />
 
-        <Script strategy="lazyOnload">
+        <Script strategy="lazyOnload" id="scr">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
