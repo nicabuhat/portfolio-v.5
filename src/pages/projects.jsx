@@ -10,6 +10,7 @@ import logoRefokus from '@/images/logos/refokus.svg'
 import logoCoach from '@/images/logos/coach.svg'
 import logoOrganic from '@/images/logos/organic.svg'
 import logoChatApp from '@/images/logos/chatapp.svg'
+import logoSuzanneCollins from '@/images/logos/suzanne.svg'
 
 const projects = [
   {
@@ -76,6 +77,16 @@ const cms = [
     },
     logo: logoChatApp,
   },
+  {
+    name: 'Suzanne Collins',
+    description:
+      'Redesign idea for Suzanne Collins website using wordpress, elementor, and astra theme',
+    link: {
+      href: 'https://suzannecollins.netlify.app/',
+      label: 'netlify.app',
+    },
+    logo: logoSuzanneCollins,
+  },
 ]
 
 function LinkIcon(props) {
@@ -129,7 +140,9 @@ export default function Projects() {
           ))}
         </ul>
 
-        <h2 className="mb-10 text-4xl text-white">CMS Projects</h2>
+        <h2 className="text-blackv mb-10 text-4xl font-bold dark:text-white">
+          CMS Projects
+        </h2>
         <ul
           role="list"
           className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
