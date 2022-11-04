@@ -9,6 +9,7 @@ import logoArcce from '@/images/logos/arcce.svg'
 import logoRefokus from '@/images/logos/refokus.svg'
 import logoCoach from '@/images/logos/coach.svg'
 import logoOrganic from '@/images/logos/organic.svg'
+import logoChatApp from '@/images/logos/chatapp.svg'
 
 const projects = [
   {
@@ -65,6 +66,17 @@ const projects = [
     logo: logoRefokus,
   },
 ]
+const cms = [
+  {
+    name: 'ChatApp',
+    description: 'Landing page for a chat application',
+    link: {
+      href: 'https://chat-app-nc.webflow.io/',
+      label: 'webflow.io',
+    },
+    logo: logoChatApp,
+  },
+]
 
 function LinkIcon(props) {
   return (
@@ -93,7 +105,7 @@ export default function Projects() {
       >
         <ul
           role="list"
-          className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
+          className="mb-20 grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
         >
           {projects.map((project) => (
             <Card as="li" key={project.name}>
@@ -112,6 +124,28 @@ export default function Projects() {
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
                 <LinkIcon className="h-6 w-6 flex-none" />
                 <span className="ml-2">{project.link.label}</span>
+              </p>
+            </Card>
+          ))}
+        </ul>
+
+        <h2 className="mb-10 text-4xl text-white">CMS Projects</h2>
+        <ul
+          role="list"
+          className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
+        >
+          {cms.map((w) => (
+            <Card as="li" key={w.name}>
+              <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+                <Image src={w.logo} alt="" className="h-8 w-8" unoptimized />
+              </div>
+              <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
+                <Card.Link href={w.link.href}>{w.name}</Card.Link>
+              </h2>
+              <Card.Description>{w.description}</Card.Description>
+              <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
+                <LinkIcon className="h-6 w-6 flex-none" />
+                <span className="ml-2">{w.link.label}</span>
               </p>
             </Card>
           ))}
