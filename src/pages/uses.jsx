@@ -41,8 +41,8 @@ export default function Uses() {
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
-            <Tool title="15.6” MSI GF63 8RC, GeForce® GTX 1050">
-              The GeForce GTX comes with drivers for Design and Gaming.
+            <Tool title="13” Macbook Pro 2022">
+              My first Mac and it did not disappoint.
             </Tool>
             <Tool title="HP ProDisplay P203">
               An adequate monitor which does its job well.

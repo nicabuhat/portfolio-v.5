@@ -20,6 +20,7 @@ import image5 from '@/images/photos/image-5.jpg'
 import logoAlphaFour from '@/images/logos/alphafour.png'
 import logoSiguro from '@/images/logos/siguro.png'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoDesygner from '@/images/logos/desygner.png'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
@@ -138,10 +139,10 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Freelance',
-      title: 'Frontend Web Developer / Designer',
-      logo: logoPlanetaria,
-      start: '2016',
+      company: 'Desygner',
+      title: 'Frontend Web Developer',
+      logo: logoDesygner,
+      start: '2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
@@ -152,10 +153,7 @@ function Resume() {
       title: 'Freelance Frontend Web Developer',
       logo: logoSiguro,
       start: '2022',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
+      end: '2022'
     },
     {
       company: 'AlphaFour',
@@ -163,6 +161,13 @@ function Resume() {
       logo: logoAlphaFour,
       start: '2021',
       end: '2022',
+    },
+    {
+      company: 'Freelance',
+      title: 'Frontend Web Developer / Designer',
+      logo: logoPlanetaria,
+      start: '2016',
+      end: '2021'
     },
   ]
 
@@ -207,7 +212,7 @@ function Resume() {
         ))}
       </ol>
       <Button
-        href="https://drive.google.com/file/d/1C6P1pVqLRwDiR7IhR3t_nCR8sZfwk-TS/view?usp=sharing"
+        href="https://drive.google.com/file/d/1RqxUePLII_mGjLR9v4dJg3oCJM_J61h2/view?usp=share_link"
         variant="secondary"
         className="group mt-6 w-full"
         target="_"
