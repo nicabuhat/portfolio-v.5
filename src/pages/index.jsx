@@ -19,8 +19,8 @@ import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import logoAlphaFour from '@/images/logos/alphafour.png'
 import logoSiguro from '@/images/logos/siguro.png'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoDesygner from '@/images/logos/desygner.png'
+import logoSophos from '@/images/logos/sophos.png'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
@@ -149,25 +149,26 @@ function Resume() {
       },
     },
     {
-      company: 'Siguro',
-      title: 'Freelance Frontend Web Developer',
-      logo: logoSiguro,
-      start: '2022',
-      end: '2022',
+      company: 'Desygner',
+      title: 'Frontend Developer',
+      logo: logoDesygner,
+      start: '2021',
+      end: '2023',
     },
+
     {
       company: 'AlphaFour',
-      title: 'Frontend Web Developer',
+      title: 'Frontend Developer',
       logo: logoAlphaFour,
-      start: '2021',
-      end: '2022',
+      start: '2019',
+      end: '2021',
     },
     {
-      company: 'Freelance',
-      title: 'Frontend Web Developer / Designer',
-      logo: logoPlanetaria,
+      company: 'Siguro',
+      title: 'Freelance Developer',
+      logo: logoSiguro,
       start: '2016',
-      end: '2021',
+      end: '2019',
     },
   ]
 
@@ -271,7 +272,7 @@ export default function Home({ articles }) {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Nicaela, a front-end web developer and designer based in the
             Philippines. I’ve been working with individual entrepreneurs and
-            small businesses for over six years where I helped them with their
+            small businesses for over seven years where I helped them with their
             digital presence.
           </p>
           <div className="mt-6 flex gap-6">

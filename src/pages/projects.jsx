@@ -31,8 +31,8 @@ const projects = [
     logo: logoEcash,
   },
   {
-    name: 'Alpha Four',
-    description: 'Landing page for subscription based website',
+    name: 'Nothing Left Behind',
+    description: 'Landing page for subscriptions based platform',
     link: {
       href: 'https://nicabuhat.github.io/alpha-four',
       label: 'github.com',
@@ -41,9 +41,18 @@ const projects = [
   },
   {
     name: '7DFS',
-    description: 'Landing page for subscription based website',
+    description: 'Landing page for subscriptions based platform',
     link: {
       href: 'https://nicabuhat.github.io/7DFS',
+      label: 'github.com',
+    },
+    logo: logoAlphaFour,
+  },
+  {
+    name: 'Nothing Left Behind',
+    description: 'Landing page for subscriptions based platform',
+    link: {
+      href: 'https://nicabuhat.github.io/alpha-four',
       label: 'github.com',
     },
     logo: logoAlphaFour,
