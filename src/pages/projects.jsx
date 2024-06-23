@@ -49,15 +49,6 @@ const projects = [
     logo: logoAlphaFour,
   },
   {
-    name: 'Nothing Left Behind',
-    description: 'Landing page for subscriptions based platform',
-    link: {
-      href: 'https://nicabuhat.github.io/alpha-four',
-      label: 'github.com',
-    },
-    logo: logoAlphaFour,
-  },
-  {
     name: 'Arcce Construction Corporation',
     description:
       'A humble website for a general contracting construction company.',
