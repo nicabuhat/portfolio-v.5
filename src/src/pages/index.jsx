@@ -143,7 +143,7 @@ function Resume() {
       company: 'Sophos',
       title: 'Software Engineer',
       logo: logoSophos,
-      start: '2022',
+      start: '2023',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
@@ -214,7 +214,7 @@ function Resume() {
         ))}
       </ol>
       <Button
-        href="https://drive.google.com/file/d/1rQbxULuU_cL3dhDBVqMrZRnb41fCkn6X/view"
+        href="https://drive.google.com/file/d/1iQBVgQtN01-HktulS5WVUSeIczm4bKhm/view"
         variant="secondary"
         className="group mt-6 w-full"
         target="_"
