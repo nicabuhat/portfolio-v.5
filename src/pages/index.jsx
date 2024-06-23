@@ -139,10 +139,10 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Desygner',
-      title: 'Frontend Web Developer',
-      logo: logoDesygner,
-      start: '2022',
+      company: 'Sophos',
+      title: 'Software Engineer',
+      logo: logoSophos,
+      start: '2023',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
@@ -153,7 +153,7 @@ function Resume() {
       title: 'Freelance Frontend Web Developer',
       logo: logoSiguro,
       start: '2022',
-      end: '2022'
+      end: '2022',
     },
     {
       company: 'AlphaFour',
@@ -167,7 +167,7 @@ function Resume() {
       title: 'Frontend Web Developer / Designer',
       logo: logoPlanetaria,
       start: '2016',
-      end: '2021'
+      end: '2021',
     },
   ]
 
@@ -212,7 +212,7 @@ function Resume() {
         ))}
       </ol>
       <Button
-        href="https://drive.google.com/file/d/1RqxUePLII_mGjLR9v4dJg3oCJM_J61h2/view?usp=share_link"
+        href="https://drive.google.com/file/d/1iQBVgQtN01-HktulS5WVUSeIczm4bKhm/view"
         variant="secondary"
         className="group mt-6 w-full"
         target="_"

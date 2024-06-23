@@ -11,6 +11,7 @@ import logoCoach from '@/images/logos/coach.svg'
 import logoOrganic from '@/images/logos/organic.svg'
 import logoChatApp from '@/images/logos/chatapp.svg'
 import logoSuzanneCollins from '@/images/logos/suzanne.svg'
+import logoAlphaFour from '@/images/logos/alphafour.png'
 
 const projects = [
   {
@@ -28,6 +29,24 @@ const projects = [
       'Prototype for the merchandise ecommerce site of ecash, XEC currency.',
     link: { href: 'https://nicabuhat.github.io/ecash', label: 'github.com' },
     logo: logoEcash,
+  },
+  {
+    name: 'Alpha Four',
+    description: 'Landing page for subscription based website',
+    link: {
+      href: 'https://nicabuhat.github.io/alpha-four',
+      label: 'github.com',
+    },
+    logo: logoAlphaFour,
+  },
+  {
+    name: '7DFS',
+    description: 'Landing page for subscription based website',
+    link: {
+      href: 'https://nicabuhat.github.io/7DFS',
+      label: 'github.com',
+    },
+    logo: logoAlphaFour,
   },
   {
     name: 'Arcce Construction Corporation',
